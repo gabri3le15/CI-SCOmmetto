@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.prenota-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.prenota-button:hover {
+  background-color: #0056b3;
+}
+
+/* Stile del form */
+.form-container {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px; /* Larghezza fissa del form */
+  max-height: 80%; /* Altezza massima del form */
+  overflow-y: auto; /* Abilita lo scrolling verticale se necessario */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 1001;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Stile del pulsante "Continua" */
+.continuaBtn {
+  margin-top: 20px;
+}
+
+/* Nascondi il bordo del pulsante "Aggiungi" */
+.aggiungiBtn:focus {
+  outline: none;
+}
+
+/* Stile del pulsante "Modifica" */
+.modificaBtn {
+  margin-top: 10px;
+  background-color: #f2f2f2;
+  color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.modificaBtn:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Stile del pulsante "Elimina" */
+.eliminaBtn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.eliminaBtn:hover {
+  background-color: #c82333;
+}
+
+/* Stile del pulsante "Conferma Prenotazione" */
+.confermaPrenotazioneBtn {
+  background-color: blue;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.confermaPrenotazioneBtn:hover {
+  background-color: blue;
+}
